@@ -3,5 +3,5 @@ from .views import MahsulotAPI
 
 
 urlpatterns = [
-    path('mahsulot', MahsulotAPI.as_view())
+    path('', MahsulotAPI.as_view())
 ]
